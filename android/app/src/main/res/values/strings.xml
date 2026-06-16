@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MyGolf Digital</string>
+    <string name="title_activity_main">MyGolf Digital</string>
+    <string name="package_name">za.co.mygolfdigital.app</string>
+    <string name="custom_url_scheme">za.co.mygolfdigital.app</string>
+</resources>

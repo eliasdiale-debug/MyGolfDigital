@@ -16,9 +16,10 @@ workflows:
           npm install --legacy-peer-deps
           npm install -g @capacitor/cli
       
-      - name: Add iOS platform
+      - name: Add iOS platform and sync
         script: |
           npx cap add ios
+          npx cap sync ios
       
       - name: Install CocoaPods
         script: |
@@ -28,11 +29,7 @@ workflows:
       
       - name: Build Capacitor iOS
         script: |
-          npx cap sync ios
           cd ios/App
-          pod install --repo-update
-          
-          # Use build-ipa which is the correct command
           xcode-project build-ipa \
             --workspace "App.xcworkspace" \
             --scheme "App" \

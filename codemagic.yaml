@@ -40,8 +40,8 @@ workflows:
           xcode-project build-ipa \
             --workspace "$WORKSPACE_NAME" \
             --scheme "$XCODE_SCHEME" \
-            --configuration Release \
-            --archive-flags "-allowProvisioningUpdates"
+            --configuration Release
+            # Removed archive-flags - Codemagic handles provisioning automatically
     
     artifacts:
       - build/ios/ipa/*.ipa

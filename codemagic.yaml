@@ -7,7 +7,6 @@ workflows:
       node: 22.0.0
       npm: 10.0.0
       vars:
-        XCODE_WORKSPACE: "ios/App/App.xcworkspace"
         XCODE_SCHEME: "App"
         BUNDLE_ID: "za.co.mygolfdigital.app"
     scripts:
@@ -24,12 +23,23 @@ workflows:
         script: |
           npx cap sync ios
       
-      - name: Build iOS
+      - name: Find and build iOS
         script: |
-          cd ios/App
+          # Find the workspace file
+          WORKSPACE_PATH=$(find ios -name "*.xcworkspace" | head -1)
+          PROJECT_PATH=$(find ios -name "*.xcodeproj" | head -1)
+          
+          echo "Found workspace: $WORKSPACE_PATH"
+          echo "Found project: $PROJECT_PATH"
+          
+          # Get the directory containing the workspace
+          WORKSPACE_DIR=$(dirname "$WORKSPACE_PATH")
+          WORKSPACE_NAME=$(basename "$WORKSPACE_PATH")
+          
+          cd "$WORKSPACE_DIR"
           xcode-project build-ipa \
-            --workspace "App.xcworkspace" \
-            --scheme "App" \
+            --workspace "$WORKSPACE_NAME" \
+            --scheme "$XCODE_SCHEME" \
             --configuration Release \
             --archive-flags "-allowProvisioningUpdates"
     

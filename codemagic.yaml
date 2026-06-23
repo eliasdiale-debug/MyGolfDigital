@@ -24,19 +24,14 @@ workflows:
         script: |
           npx cap sync ios
       
-      - name: Install CocoaPods
-        script: |
-          sudo gem install cocoapods
-          cd ios/App
-          pod install --repo-update
-      
       - name: Build iOS
         script: |
           cd ios/App
           xcode-project build-ipa \
             --workspace "App.xcworkspace" \
             --scheme "App" \
-            --configuration Release
+            --configuration Release \
+            --archive-flags "-allowProvisioningUpdates"
     
     artifacts:
       - build/ios/ipa/*.ipa

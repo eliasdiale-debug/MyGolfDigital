@@ -12,10 +12,14 @@ workflows:
           npm install --legacy-peer-deps
           npm install -g @capacitor/cli
       
+      - name: Add iOS platform
+        script: |
+          npx cap add ios
+      
       - name: Build iOS
         script: |
           npx cap sync ios
-          cd ios
+          cd ios/App
           xcode-project build-ipa \
             --workspace "App.xcworkspace" \
             --scheme "App" \

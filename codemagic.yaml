@@ -6,27 +6,42 @@ workflows:
     environment:
       node: 22.0.0
       npm: 10.0.0
+      vars:
+        XCODE_WORKSPACE: "ios/App/App.xcworkspace"
+        XCODE_SCHEME: "App"
+        BUNDLE_ID: "za.co.mygolfdigital.app"
     scripts:
       - name: Install dependencies
         script: |
           npm install --legacy-peer-deps
           npm install -g @capacitor/cli
+      
       - name: Add iOS platform
         script: |
           npx cap add ios
+      
       - name: Install CocoaPods and init
         script: |
           sudo gem install cocoapods
           cd ios/App
           pod init
           pod install
+      
       - name: Build Capacitor iOS
         script: |
           npx cap sync ios
           cd ios/App
           pod install --repo-update
-          xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive \
-            -allowProvisioningUpdates \
-            DEVELOPMENT_TEAM=XLLS7YY99H
+          xcode-project build-archive \
+            --workspace "App.xcworkspace" \
+            --scheme "App" \
+            --configuration Release
+      
+      - name: Export IPA
+        script: |
+          xcode-project export-ipa \
+            --archive "$HOME/Library/Developer/Xcode/Archives/$(date +%Y-%m-%d)/App.xcarchive" \
+            --output "$CM_BUILD_DIR/build"
+    
     artifacts:
       - build/*.ipa

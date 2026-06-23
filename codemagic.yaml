@@ -4,12 +4,16 @@ workflows:
     max_build_duration: 60
     instance_type: mac_mini_m2
     environment:
-      node: 18.17.0
-      npm: 9.6.7
+      node: 22.0.0
+      npm: 10.0.0
     scripts:
       - name: Install dependencies
         script: |
           npm install --legacy-peer-deps
+          npm install -g @capacitor/cli
+      - name: Add iOS platform
+        script: |
+          npx cap add ios
       - name: Build Capacitor iOS
         script: |
           npx cap sync ios

@@ -11,13 +11,20 @@ workflows:
         script: |
           npm install --legacy-peer-deps
           npm install -g @capacitor/cli
+          npm install -g cordova-res
+          npm install -g native-run
       - name: Add iOS platform
         script: |
           npx cap add ios
+      - name: Install CocoaPods
+        script: |
+          sudo gem install cocoapods
+          cd ios/App && pod install
       - name: Build Capacitor iOS
         script: |
           npx cap sync ios
-          cd ios/App && pod install
-          xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive
+          cd ios/App
+          pod install || pod install --repo-update
+          xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive -allowProvisioningUpdates
     artifacts:
       - build/*.ipa

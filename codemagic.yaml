@@ -14,14 +14,17 @@ workflows:
       - name: Add iOS platform
         script: |
           npx cap add ios
-      - name: Install CocoaPods
+      - name: Install CocoaPods and init
         script: |
           sudo gem install cocoapods
+          cd ios/App
+          pod init
+          pod install
       - name: Build Capacitor iOS
         script: |
           npx cap sync ios
           cd ios/App
-          pod install
+          pod install --repo-update
           xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive -allowProvisioningUpdates
     artifacts:
       - build/*.ipa

@@ -6,30 +6,16 @@ workflows:
     environment:
       node: 22.0.0
       npm: 10.0.0
-      vars:
-        XCODE_WORKSPACE: "ios/App/App.xcworkspace"
-        XCODE_SCHEME: "App"
-        BUNDLE_ID: "za.co.mygolfdigital.app"
     scripts:
       - name: Install dependencies
         script: |
           npm install --legacy-peer-deps
           npm install -g @capacitor/cli
       
-      - name: Add iOS platform and sync
+      - name: Build iOS
         script: |
-          npx cap add ios
           npx cap sync ios
-      
-      - name: Install CocoaPods
-        script: |
-          sudo gem install cocoapods
-          cd ios/App
-          pod install --repo-update
-      
-      - name: Build Capacitor iOS
-        script: |
-          cd ios/App
+          cd ios
           xcode-project build-ipa \
             --workspace "App.xcworkspace" \
             --scheme "App" \

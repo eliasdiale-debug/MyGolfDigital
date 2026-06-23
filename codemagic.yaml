@@ -20,28 +20,23 @@ workflows:
         script: |
           npx cap add ios
       
-      - name: Install CocoaPods and init
+      - name: Install CocoaPods
         script: |
           sudo gem install cocoapods
           cd ios/App
-          pod init
-          pod install
+          pod install --repo-update
       
       - name: Build Capacitor iOS
         script: |
           npx cap sync ios
           cd ios/App
           pod install --repo-update
-          xcode-project build-archive \
+          
+          # Use build-ipa which is the correct command
+          xcode-project build-ipa \
             --workspace "App.xcworkspace" \
             --scheme "App" \
             --configuration Release
-      
-      - name: Export IPA
-        script: |
-          xcode-project export-ipa \
-            --archive "$HOME/Library/Developer/Xcode/Archives/$(date +%Y-%m-%d)/App.xcarchive" \
-            --output "$CM_BUILD_DIR/build"
     
     artifacts:
-      - build/*.ipa
+      - build/ios/ipa/*.ipa

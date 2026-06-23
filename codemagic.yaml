@@ -6,8 +6,6 @@ workflows:
     environment:
       node: 22.0.0
       npm: 10.0.0
-      groups:
-        - apple_credentials
     scripts:
       - name: Install dependencies
         script: |
@@ -29,6 +27,6 @@ workflows:
           pod install --repo-update
           xcodebuild -workspace App.xcworkspace -scheme App -configuration Release archive \
             -allowProvisioningUpdates \
-            DEVELOPMENT_TEAM=$APPLE_DEVELOPER_TEAM_ID
+            DEVELOPMENT_TEAM=XLLS7YY99H
     artifacts:
       - build/*.ipa

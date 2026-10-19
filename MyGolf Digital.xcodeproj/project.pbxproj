@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C7220D663062738200BBC15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7220D473062737E00BBC15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7220D4E3062737E00BBC15F;
+			remoteInfo = "MyGolf Digital";
+		};
+		C7220D703062738200BBC15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7220D473062737E00BBC15F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7220D4E3062737E00BBC15F;
+			remoteInfo = "MyGolf Digital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7220D4F3062737E00BBC15F /* MyGolf Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyGolf Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7220D653062738200BBC15F /* MyGolf DigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyGolf DigitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7220D6F3062738200BBC15F /* MyGolf DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyGolf DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7220D513062737E00BBC15F /* MyGolf Digital */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MyGolf Digital";
+			sourceTree = "<group>";
+		};
+		C7220D683062738200BBC15F /* MyGolf DigitalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MyGolf DigitalTests";
+			sourceTree = "<group>";
+		};
+		C7220D723062738200BBC15F /* MyGolf DigitalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "MyGolf DigitalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7220D4C3062737E00BBC15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D623062738200BBC15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D6C3062738200BBC15F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7220D463062737E00BBC15F = {
+			isa = PBXGroup;
+			children = (
+				C7220D513062737E00BBC15F /* MyGolf Digital */,
+				C7220D683062738200BBC15F /* MyGolf DigitalTests */,
+				C7220D723062738200BBC15F /* MyGolf DigitalUITests */,
+				C7220D503062737E00BBC15F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7220D503062737E00BBC15F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7220D4F3062737E00BBC15F /* MyGolf Digital.app */,
+				C7220D653062738200BBC15F /* MyGolf DigitalTests.xctest */,
+				C7220D6F3062738200BBC15F /* MyGolf DigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7220D4E3062737E00BBC15F /* MyGolf Digital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7220D783062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf Digital" */;
+			buildPhases = (
+				C7220D4B3062737E00BBC15F /* Sources */,
+				C7220D4C3062737E00BBC15F /* Frameworks */,
+				C7220D4D3062737E00BBC15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C7220D513062737E00BBC15F /* MyGolf Digital */,
+			);
+			name = "MyGolf Digital";
+			packageProductDependencies = (
+			);
+			productName = "MyGolf Digital";
+			productReference = C7220D4F3062737E00BBC15F /* MyGolf Digital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7220D643062738200BBC15F /* MyGolf DigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7220D7D3062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf DigitalTests" */;
+			buildPhases = (
+				C7220D613062738200BBC15F /* Sources */,
+				C7220D623062738200BBC15F /* Frameworks */,
+				C7220D633062738200BBC15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7220D673062738200BBC15F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7220D683062738200BBC15F /* MyGolf DigitalTests */,
+			);
+			name = "MyGolf DigitalTests";
+			packageProductDependencies = (
+			);
+			productName = "MyGolf DigitalTests";
+			productReference = C7220D653062738200BBC15F /* MyGolf DigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7220D6E3062738200BBC15F /* MyGolf DigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7220D803062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf DigitalUITests" */;
+			buildPhases = (
+				C7220D6B3062738200BBC15F /* Sources */,
+				C7220D6C3062738200BBC15F /* Frameworks */,
+				C7220D6D3062738200BBC15F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7220D713062738200BBC15F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7220D723062738200BBC15F /* MyGolf DigitalUITests */,
+			);
+			name = "MyGolf DigitalUITests";
+			packageProductDependencies = (
+			);
+			productName = "MyGolf DigitalUITests";
+			productReference = C7220D6F3062738200BBC15F /* MyGolf DigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7220D473062737E00BBC15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C7220D4E3062737E00BBC15F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C7220D643062738200BBC15F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C7220D4E3062737E00BBC15F;
+					};
+					C7220D6E3062738200BBC15F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C7220D4E3062737E00BBC15F;
+					};
+				};
+			};
+			buildConfigurationList = C7220D4A3062737E00BBC15F /* Build configuration list for PBXProject "MyGolf Digital" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7220D463062737E00BBC15F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C7220D503062737E00BBC15F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7220D4E3062737E00BBC15F /* MyGolf Digital */,
+				C7220D643062738200BBC15F /* MyGolf DigitalTests */,
+				C7220D6E3062738200BBC15F /* MyGolf DigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7220D4D3062737E00BBC15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D633062738200BBC15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D6D3062738200BBC15F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7220D4B3062737E00BBC15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D613062738200BBC15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7220D6B3062738200BBC15F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7220D673062738200BBC15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7220D4E3062737E00BBC15F /* MyGolf Digital */;
+			targetProxy = C7220D663062738200BBC15F /* PBXContainerItemProxy */;
+		};
+		C7220D713062738200BBC15F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7220D4E3062737E00BBC15F /* MyGolf Digital */;
+			targetProxy = C7220D703062738200BBC15F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7220D793062738300BBC15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyGolf Digital/MyGolf Digital.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyGolf Digital/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access so you can upload a profile picture.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find nearby golf courses and players.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for voice scoring.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs photo library access so you can upload a profile picture.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your voice to game commands.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.mygolf-digital.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7220D7A3062738300BBC15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MyGolf Digital/MyGolf Digital.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MyGolf Digital/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access so you can upload a profile picture.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to find nearby golf courses and players.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone for voice scoring.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs photo library access so you can upload a profile picture.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to convert your voice to game commands.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.za.mygolf-digital.app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7220D7B3062738300BBC15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7220D7C3062738300BBC15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7220D7E3062738300BBC15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.co.mygolf-digital.MyGolf-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGolf Digital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyGolf Digital";
+			};
+			name = Debug;
+		};
+		C7220D7F3062738300BBC15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.co.mygolf-digital.MyGolf-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyGolf Digital.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyGolf Digital";
+			};
+			name = Release;
+		};
+		C7220D813062738300BBC15F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.co.mygolf-digital.MyGolf-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyGolf Digital";
+			};
+			name = Debug;
+		};
+		C7220D823062738300BBC15F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLLS7YY99H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "za.co.mygolf-digital.MyGolf-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MyGolf Digital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7220D4A3062737E00BBC15F /* Build configuration list for PBXProject "MyGolf Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7220D7B3062738300BBC15F /* Debug */,
+				C7220D7C3062738300BBC15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7220D783062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7220D793062738300BBC15F /* Debug */,
+				C7220D7A3062738300BBC15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7220D7D3062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf DigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7220D7E3062738300BBC15F /* Debug */,
+				C7220D7F3062738300BBC15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7220D803062738300BBC15F /* Build configuration list for PBXNativeTarget "MyGolf DigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7220D813062738300BBC15F /* Debug */,
+				C7220D823062738300BBC15F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7220D473062737E00BBC15F /* Project object */;
+}

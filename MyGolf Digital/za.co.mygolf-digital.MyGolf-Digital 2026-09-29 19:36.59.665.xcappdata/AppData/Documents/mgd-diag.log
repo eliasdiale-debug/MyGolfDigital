@@ -1,0 +1,288 @@
+[18:45:12.706] ──── Diagnostics session started ────
+[18:45:12.707] app version 1.0 build 1
+[18:45:12.707] log path /var/mobile/Containers/Data/Application/BB50A2D7-3465-4F3A-864A-97FECB39D45A/Documents/mgd-diag.log
+[18:45:12.707] viewDidLoad START
+[18:45:12.736] storeURL=/var/mobile/Containers/Data/Application/BB50A2D7-3465-4F3A-864A-97FECB39D45A/Library/Application Support/MyGolfOffline/offline.store
+[18:45:12.738] launch queue totalRows=17 pending=17
+[18:45:12.738] SyncEngine init
+[18:45:12.739] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:12.951] nativeOffline WKUserScript added
+[18:45:12.955] loading URL https://www.mygolf-digital.co.za/login
+[18:45:12.964] viewDidLoad END
+[18:45:13.605] nav didStartProvisional
+[18:45:15.557] nav didFinish https://www.mygolf-digital.co.za/login
+[18:45:16.662] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:16.908] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:21.484] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:21.619] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:31.673] NWPath online=true wasOffline=false knownMemberId=0
+[18:45:56.511] nav didStartProvisional
+[18:45:57.996] nav didFinish https://www.mygolf-digital.co.za/dashboard?member_id=54
+[18:46:20.785] cacheGame ENTRY
+[18:46:20.843] cacheGame OK game=585 fourballMembers=[62, 77, 54, 70]
+[18:46:24.380] NWPath online=true wasOffline=false knownMemberId=0
+[18:46:34.649] [JS] dispatch key=11800-7-member-62 pairing=11800 hole=7 strokes=6
+[18:46:35.251] [JS] dispatch path decision offline=false nativeReady=true
+[18:46:35.251] [JS] dispatch → fetch pairing=11800 hole=7
+[18:46:35.254] [JS] dispatch ← fetch OK pairing=11800 hole=7
+[18:46:35.254] [JS] dispatch fallback check saved=true nativeReady=true
+[18:46:45.912] [JS] dispatch key=11801-7-member-77 pairing=11801 hole=7 strokes=5
+[18:46:45.913] [JS] dispatch path decision offline=false nativeReady=true
+[18:46:45.913] [JS] dispatch → fetch pairing=11801 hole=7
+[18:46:46.590] [JS] dispatch ← fetch OK pairing=11801 hole=7
+[18:46:46.590] [JS] dispatch fallback check saved=true nativeReady=true
+[18:46:51.750] [JS] dispatch key=11802-7-member-54 pairing=11802 hole=7 strokes=9
+[18:46:51.750] [JS] dispatch path decision offline=false nativeReady=true
+[18:46:51.750] [JS] dispatch → fetch pairing=11802 hole=7
+[18:46:52.633] [JS] dispatch ← fetch OK pairing=11802 hole=7
+[18:46:52.633] [JS] dispatch fallback check saved=true nativeReady=true
+[18:47:06.197] [JS] dispatch key=11803-7-member-70 pairing=11803 hole=7 strokes=4
+[18:47:06.197] [JS] dispatch path decision offline=false nativeReady=true
+[18:47:06.198] [JS] dispatch → fetch pairing=11803 hole=7
+[18:47:07.079] [JS] dispatch ← fetch OK pairing=11803 hole=7
+[18:47:07.079] [JS] dispatch fallback check saved=true nativeReady=true
+[18:47:11.986] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:13.036] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:20.015] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:20.168] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:20.351] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:21.024] NWPath online=true wasOffline=false knownMemberId=0
+[18:47:32.846] NWPath online=false wasOffline=false knownMemberId=0
+[18:47:45.215] [JS] dispatch key=11800-8-member-62 pairing=11800 hole=8 strokes=5
+[18:47:45.215] [JS] dispatch path decision offline=true nativeReady=true
+[18:47:45.216] [JS] dispatch → native pairing=11800 hole=8
+[18:47:45.232] offlineScore ENTRY
+[18:47:45.233] remembered memberId=54
+[18:47:45.268] offlineScore OK pairing=11800 hole=8 strokes=5 guest=- totalRows=18 pending=18
+[18:47:45.269] [JS] dispatch ← native reply ok=true reason=-
+[18:47:49.823] [JS] dispatch key=11801-8-member-77 pairing=11801 hole=8 strokes=7
+[18:47:49.823] [JS] dispatch path decision offline=true nativeReady=true
+[18:47:49.823] [JS] dispatch → native pairing=11801 hole=8
+[18:47:49.835] offlineScore ENTRY
+[18:47:49.841] offlineScore OK pairing=11801 hole=8 strokes=7 guest=- totalRows=19 pending=19
+[18:47:49.848] [JS] dispatch ← native reply ok=true reason=-
+[18:47:52.755] [JS] dispatch key=11802-8-member-54 pairing=11802 hole=8 strokes=8
+[18:47:52.756] [JS] dispatch path decision offline=true nativeReady=true
+[18:47:52.756] [JS] dispatch → native pairing=11802 hole=8
+[18:47:52.770] offlineScore ENTRY
+[18:47:52.776] offlineScore OK pairing=11802 hole=8 strokes=8 guest=- totalRows=20 pending=20
+[18:47:52.780] [JS] dispatch ← native reply ok=true reason=-
+[18:47:55.525] [JS] dispatch key=11803-8-member-70 pairing=11803 hole=8 strokes=5
+[18:47:55.526] [JS] dispatch path decision offline=true nativeReady=true
+[18:47:55.526] [JS] dispatch → native pairing=11803 hole=8
+[18:47:55.536] offlineScore ENTRY
+[18:47:55.543] offlineScore OK pairing=11803 hole=8 strokes=5 guest=- totalRows=21 pending=21
+[18:47:55.544] [JS] dispatch ← native reply ok=true reason=-
+[18:48:00.481] [JS] dispatch key=11800-9-member-62 pairing=11800 hole=9 strokes=6
+[18:48:00.481] [JS] dispatch path decision offline=true nativeReady=true
+[18:48:00.482] [JS] dispatch → native pairing=11800 hole=9
+[18:48:00.492] offlineScore ENTRY
+[18:48:00.499] offlineScore OK pairing=11800 hole=9 strokes=6 guest=- totalRows=22 pending=22
+[18:48:00.500] [JS] dispatch ← native reply ok=true reason=-
+[18:48:02.897] [JS] dispatch key=11801-9-member-77 pairing=11801 hole=9 strokes=6
+[18:48:02.902] [JS] dispatch path decision offline=true nativeReady=true
+[18:48:02.903] [JS] dispatch → native pairing=11801 hole=9
+[18:48:02.913] offlineScore ENTRY
+[18:48:02.917] offlineScore OK pairing=11801 hole=9 strokes=6 guest=- totalRows=23 pending=23
+[18:48:02.917] [JS] dispatch ← native reply ok=true reason=-
+[18:48:12.039] NWPath online=false wasOffline=true knownMemberId=54
+[18:48:12.221] NWPath online=true wasOffline=true knownMemberId=54
+[18:48:12.222] requestSync called currentMemberId=54 inFlight=false
+[18:48:12.222] drain START currentMemberId=54 isOnline=true
+[18:48:12.268] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[18:48:12.516] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:12.667] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:12.979] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:14.779] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:15.009] [JS] online event fired, calling requestSync memberId=54
+[18:48:15.009] requestSync ENTRY currentMemberId=54
+[18:48:15.010] requestSync called currentMemberId=54 inFlight=false
+[18:48:15.010] [JS] online event requestSync dispatched
+[18:48:15.010] drain START currentMemberId=54 isOnline=true
+[18:48:15.013] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[18:48:17.610] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:18.600] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:18.822] [JS] dispatch key=11802-9-member-54 pairing=11802 hole=9 strokes=5
+[18:48:18.822] [JS] dispatch path decision offline=false nativeReady=true
+[18:48:18.822] [JS] dispatch → fetch pairing=11802 hole=9
+[18:48:19.463] [JS] dispatch ← fetch OK pairing=11802 hole=9
+[18:48:19.463] [JS] dispatch fallback check saved=true nativeReady=true
+[18:48:22.474] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:24.444] [JS] dispatch key=11803-9-member-70 pairing=11803 hole=9 strokes=5
+[18:48:24.444] [JS] dispatch path decision offline=false nativeReady=true
+[18:48:24.444] [JS] dispatch → fetch pairing=11803 hole=9
+[18:48:25.119] [JS] dispatch ← fetch OK pairing=11803 hole=9
+[18:48:25.119] [JS] dispatch fallback check saved=true nativeReady=true
+[18:48:25.554] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:30.226] NWPath online=true wasOffline=false knownMemberId=54
+[18:48:32.330] NWPath online=true wasOffline=false knownMemberId=54
+[18:49:43.479] [JS] dispatch key=11800-10-member-62 pairing=11800 hole=10 strokes=6
+[18:49:43.480] [JS] dispatch path decision offline=false nativeReady=true
+[18:49:43.480] [JS] dispatch → fetch pairing=11800 hole=10
+[18:49:45.109] [JS] dispatch ← fetch OK pairing=11800 hole=10
+[18:49:45.110] [JS] dispatch fallback check saved=true nativeReady=true
+[18:49:47.431] [JS] dispatch key=11801-10-member-77 pairing=11801 hole=10 strokes=7
+[18:49:47.431] [JS] dispatch path decision offline=false nativeReady=true
+[18:49:47.432] [JS] dispatch → fetch pairing=11801 hole=10
+[18:49:48.599] [JS] dispatch ← fetch OK pairing=11801 hole=10
+[18:49:48.599] [JS] dispatch fallback check saved=true nativeReady=true
+[18:49:49.885] [JS] dispatch key=11802-10-member-54 pairing=11802 hole=10 strokes=6
+[18:49:49.886] [JS] dispatch path decision offline=false nativeReady=true
+[18:49:49.886] [JS] dispatch → fetch pairing=11802 hole=10
+[18:49:50.603] [JS] dispatch ← fetch OK pairing=11802 hole=10
+[18:49:50.603] [JS] dispatch fallback check saved=true nativeReady=true
+[18:49:53.018] [JS] dispatch key=11803-10-member-70 pairing=11803 hole=10 strokes=5
+[18:49:53.018] [JS] dispatch path decision offline=false nativeReady=true
+[18:49:53.018] [JS] dispatch → fetch pairing=11803 hole=10
+[18:49:53.693] [JS] dispatch ← fetch OK pairing=11803 hole=10
+[18:49:53.693] [JS] dispatch fallback check saved=true nativeReady=true
+[18:50:39.012] NWPath online=true wasOffline=false knownMemberId=54
+[18:50:47.223] NWPath online=true wasOffline=false knownMemberId=54
+[18:50:47.374] NWPath online=true wasOffline=false knownMemberId=54
+[18:50:52.275] NWPath online=true wasOffline=false knownMemberId=54
+[18:51:24.050] NWPath online=true wasOffline=false knownMemberId=54
+[18:51:24.173] NWPath online=true wasOffline=false knownMemberId=54
+[18:51:29.224] NWPath online=true wasOffline=false knownMemberId=54
+[18:51:59.703] NWPath online=true wasOffline=false knownMemberId=54
+[18:52:00.720] NWPath online=true wasOffline=false knownMemberId=54
+[18:52:28.920] NWPath online=true wasOffline=false knownMemberId=54
+[18:52:35.577] NWPath online=true wasOffline=false knownMemberId=54
+[18:53:30.275] NWPath online=true wasOffline=false knownMemberId=54
+[18:53:30.539] NWPath online=false wasOffline=false knownMemberId=54
+[18:53:30.640] NWPath online=false wasOffline=true knownMemberId=54
+[18:53:30.778] NWPath online=false wasOffline=true knownMemberId=54
+[18:53:39.555] [JS] dispatch key=11800-11-member-62 pairing=11800 hole=11 strokes=5
+[18:53:39.556] [JS] dispatch path decision offline=true nativeReady=true
+[18:53:39.556] [JS] dispatch → native pairing=11800 hole=11
+[18:53:39.572] offlineScore ENTRY
+[18:53:39.610] offlineScore OK pairing=11800 hole=11 strokes=5 guest=- totalRows=24 pending=24
+[18:53:39.611] [JS] dispatch ← native reply ok=true reason=-
+[18:53:44.373] [JS] dispatch key=11801-11-member-77 pairing=11801 hole=11 strokes=6
+[18:53:44.375] [JS] dispatch path decision offline=true nativeReady=true
+[18:53:44.375] [JS] dispatch → native pairing=11801 hole=11
+[18:53:44.386] offlineScore ENTRY
+[18:53:44.393] offlineScore OK pairing=11801 hole=11 strokes=6 guest=- totalRows=25 pending=25
+[18:53:44.402] [JS] dispatch ← native reply ok=true reason=-
+[18:53:49.375] [JS] dispatch key=11802-11-member-54 pairing=11802 hole=11 strokes=9
+[18:53:49.376] [JS] dispatch path decision offline=true nativeReady=true
+[18:53:49.378] [JS] dispatch → native pairing=11802 hole=11
+[18:53:49.392] offlineScore ENTRY
+[18:53:49.398] offlineScore OK pairing=11802 hole=11 strokes=9 guest=- totalRows=26 pending=26
+[18:53:49.401] [JS] dispatch ← native reply ok=true reason=-
+[18:53:53.108] [JS] dispatch key=11803-11-member-70 pairing=11803 hole=11 strokes=10
+[18:53:53.109] [JS] dispatch path decision offline=true nativeReady=true
+[18:53:53.109] [JS] dispatch → native pairing=11803 hole=11
+[18:53:53.119] offlineScore ENTRY
+[18:53:53.125] offlineScore OK pairing=11803 hole=11 strokes=10 guest=- totalRows=27 pending=27
+[18:53:53.126] [JS] dispatch ← native reply ok=true reason=-
+[18:54:08.096] NWPath online=false wasOffline=true knownMemberId=54
+[18:54:08.239] NWPath online=true wasOffline=true knownMemberId=54
+[18:54:08.239] requestSync called currentMemberId=54 inFlight=false
+[18:54:08.240] drain START currentMemberId=54 isOnline=true
+[18:54:08.279] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[18:54:08.596] NWPath online=true wasOffline=false knownMemberId=54
+[18:54:09.797] NWPath online=true wasOffline=false knownMemberId=54
+[18:54:10.603] [JS] online event fired, calling requestSync memberId=54
+[18:54:10.603] requestSync ENTRY currentMemberId=54
+[18:54:10.603] requestSync called currentMemberId=54 inFlight=false
+[18:54:10.603] [JS] online event requestSync dispatched
+[18:54:10.604] drain START currentMemberId=54 isOnline=true
+[18:54:10.605] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[18:54:14.102] NWPath online=true wasOffline=false knownMemberId=54
+[18:54:18.238] NWPath online=true wasOffline=false knownMemberId=54
+[19:14:51.438] NWPath online=true wasOffline=false knownMemberId=54
+[19:28:46.004] ──── Diagnostics session started ────
+[19:28:46.005] app version 1.0 build 1
+[19:28:46.005] log path /var/mobile/Containers/Data/Application/3F329A66-164F-49BB-87B9-D27BF7755E2E/Documents/mgd-diag.log
+[19:28:46.005] viewDidLoad START
+[19:28:46.030] storeURL=/var/mobile/Containers/Data/Application/3F329A66-164F-49BB-87B9-D27BF7755E2E/Library/Application Support/MyGolfOffline/offline.store
+[19:28:46.031] launch queue totalRows=27 pending=27
+[19:28:46.032] SyncEngine init
+[19:28:46.032] NWPath online=true wasOffline=false knownMemberId=0
+[19:28:46.182] nativeOffline WKUserScript added
+[19:28:46.185] loading URL https://www.mygolf-digital.co.za/login
+[19:28:46.192] viewDidLoad END
+[19:28:46.667] nav didStartProvisional
+[19:28:48.504] nav didFinish https://www.mygolf-digital.co.za/login
+[19:28:55.847] NWPath online=true wasOffline=false knownMemberId=0
+[19:28:56.036] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:08.813] nav didStartProvisional
+[19:29:09.384] nav didStartProvisional
+[19:29:10.406] nav didFinish https://www.mygolf-digital.co.za/dashboard?member_id=54
+[19:29:18.818] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:25.638] cacheGame ENTRY
+[19:29:25.667] cacheGame OK game=585 fourballMembers=[62, 77, 54, 70]
+[19:29:26.226] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:29.223] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:41.888] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:42.098] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:42.232] NWPath online=true wasOffline=false knownMemberId=0
+[19:29:54.278] NWPath online=true wasOffline=false knownMemberId=0
+[19:30:10.347] NWPath online=true wasOffline=false knownMemberId=0
+[19:30:10.615] NWPath online=false wasOffline=false knownMemberId=0
+[19:30:10.764] NWPath online=false wasOffline=true knownMemberId=0
+[19:30:39.026] [JS] dispatch key=11800-8-member-62 pairing=11800 hole=8 strokes=5
+[19:30:39.042] [JS] dispatch → fetch pairing=11800 hole=8
+[19:30:39.064] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:30:39.065] [JS] dispatch → native (fetch-unreachable) pairing=11800 hole=8
+[19:30:39.065] offlineScore ENTRY
+[19:30:39.065] remembered memberId=54
+[19:30:39.085] offlineScore OK pairing=11800 hole=8 strokes=5 guest=- totalRows=27 pending=27
+[19:30:39.086] [JS] dispatch ← native reply ok=true reason=-
+[19:30:43.009] [JS] dispatch key=11801-8-member-77 pairing=11801 hole=8 strokes=6
+[19:30:43.010] [JS] dispatch → fetch pairing=11801 hole=8
+[19:30:43.034] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:30:43.035] [JS] dispatch → native (fetch-unreachable) pairing=11801 hole=8
+[19:30:43.035] offlineScore ENTRY
+[19:30:43.078] offlineScore OK pairing=11801 hole=8 strokes=6 guest=- totalRows=27 pending=27
+[19:30:43.079] [JS] dispatch ← native reply ok=true reason=-
+[19:30:46.441] [JS] dispatch key=11802-8-member-54 pairing=11802 hole=8 strokes=8
+[19:30:46.441] [JS] dispatch → fetch pairing=11802 hole=8
+[19:30:46.464] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:30:46.464] [JS] dispatch → native (fetch-unreachable) pairing=11802 hole=8
+[19:30:46.464] offlineScore ENTRY
+[19:30:46.469] offlineScore OK pairing=11802 hole=8 strokes=8 guest=- totalRows=27 pending=27
+[19:30:46.470] [JS] dispatch ← native reply ok=true reason=-
+[19:30:50.512] [JS] dispatch key=11803-8-member-70 pairing=11803 hole=8 strokes=6
+[19:30:50.513] [JS] dispatch → fetch pairing=11803 hole=8
+[19:30:50.528] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:30:50.528] [JS] dispatch → native (fetch-unreachable) pairing=11803 hole=8
+[19:30:50.528] offlineScore ENTRY
+[19:30:50.532] offlineScore OK pairing=11803 hole=8 strokes=6 guest=- totalRows=27 pending=27
+[19:30:50.532] [JS] dispatch ← native reply ok=true reason=-
+[19:30:57.990] [JS] dispatch key=11800-9-member-62 pairing=11800 hole=9 strokes=6
+[19:30:57.990] [JS] dispatch → fetch pairing=11800 hole=9
+[19:30:58.013] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:30:58.013] [JS] dispatch → native (fetch-unreachable) pairing=11800 hole=9
+[19:30:58.013] offlineScore ENTRY
+[19:30:58.021] offlineScore OK pairing=11800 hole=9 strokes=6 guest=- totalRows=27 pending=27
+[19:30:58.022] [JS] dispatch ← native reply ok=true reason=-
+[19:31:00.956] [JS] dispatch key=11801-9-member-77 pairing=11801 hole=9 strokes=7
+[19:31:00.956] [JS] dispatch → fetch pairing=11801 hole=9
+[19:31:00.984] [JS] dispatch ← fetch threw TypeError: Load failed — routing to native
+[19:31:00.984] [JS] dispatch → native (fetch-unreachable) pairing=11801 hole=9
+[19:31:00.984] offlineScore ENTRY
+[19:31:00.989] offlineScore OK pairing=11801 hole=9 strokes=7 guest=- totalRows=27 pending=27
+[19:31:00.990] [JS] dispatch ← native reply ok=true reason=-
+[19:32:08.411] NWPath online=false wasOffline=true knownMemberId=54
+[19:32:08.509] NWPath online=false wasOffline=true knownMemberId=54
+[19:32:08.726] NWPath online=true wasOffline=true knownMemberId=54
+[19:32:08.727] requestSync called currentMemberId=54 inFlight=false
+[19:32:08.727] drain START currentMemberId=54 isOnline=true
+[19:32:08.764] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[19:32:08.861] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:09.548] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:10.870] [JS] online event fired, calling requestSync memberId=54
+[19:32:10.871] requestSync ENTRY currentMemberId=54
+[19:32:10.871] requestSync called currentMemberId=54 inFlight=false
+[19:32:10.871] [JS] online event requestSync dispatched
+[19:32:10.871] drain START currentMemberId=54 isOnline=true
+[19:32:10.874] drain EXCEPTION SwiftDataError(_error: SwiftData.SwiftDataError._Error.unsupportedPredicate, _explanation: Optional("Unsupported Predicate: The \'Foundation.PredicateExpressions.ForcedUnwrap\' operator is not supported"))
+[19:32:12.166] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:13.117] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:14.275] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:17.355] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:28.647] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:38.476] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:44.647] NWPath online=true wasOffline=false knownMemberId=54
+[19:32:48.850] NWPath online=true wasOffline=false knownMemberId=54

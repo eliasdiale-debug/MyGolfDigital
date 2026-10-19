@@ -29,9 +29,22 @@
 		C7220D6F3062738200BBC15F /* MyGolf DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MyGolf DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C7220D773062738300BBC15F /* Exceptions for "MyGolf Digital" folder in "MyGolf Digital" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C7220D4E3062737E00BBC15F /* MyGolf Digital */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C7220D513062737E00BBC15F /* MyGolf Digital */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C7220D773062738300BBC15F /* Exceptions for "MyGolf Digital" folder in "MyGolf Digital" target */,
+			);
 			path = "MyGolf Digital";
 			sourceTree = "<group>";
 		};

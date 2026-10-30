@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				"za.co.mygolf-digital.MyGolf-Digital 2026-09-29 19:36.59.665.xcappdata",
 			);
 			target = C7220D4E3062737E00BBC15F /* MyGolf Digital */;
 		};
@@ -289,7 +290,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MyGolf Digital/MyGolf Digital.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = XLLS7YY99H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MyGolf Digital/Info.plist";
@@ -325,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "MyGolf Digital/MyGolf Digital.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 33;
 				DEVELOPMENT_TEAM = XLLS7YY99H;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MyGolf Digital/Info.plist";
